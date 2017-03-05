@@ -1,15 +1,12 @@
-<?php 
+﻿<?php 
 session_start();
 error_reporting(0);
 
-$site_title = " 143 ";
+$site_title = "♥SHIKRA BOT♥ ";
 
 // using banned in role will show user that he is banned when he try to login . 
 $users = array(
-               "summer" => array("name" => "Malik Ali", "role"=> "admin"),
-               "summer" => array("name" => "shikra", "role"=> "admin"),
-               "summer" => array("name" => "Malik Ali", "role"=> "guest"),
-               "summer" => array("name" => "shikra", "role"=> "guest")
+               "ALISHIKRA" => array("name" => "MALIK ALI SHIKRA", "role"=> "admin"),
                );
 
 if(isset($_SESSION['logged']) && !isset($users[$_SESSION['password']]) || $users[$_SESSION['password']]['role'] == 'banned'){
@@ -56,10 +53,10 @@ if(!isset($_SESSION['logged']) || $_SESSION['logged'] ==  false){
 
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
-MALIK ALI SHIKRA
-</title><link rel="stylesheet" type="text/css" href="http://flambon.xtgem.com/fmb/old.css"
+♥MALIK ALI SHIKRA♥
+</title><link rel="stylesheet" type="text/css" href="http://flambon.xtgem.com/fmb/natur.css"
 
-</title><link rel="stylesheet" type="text/css" href="http://flambon.xtgem.com/fmb/simple_black.css" media="all,black.css"/><link rel="shortcut icon" href="">
+</title><link rel="stylesheet" type="text/css" href="http://flambon.xtgem.com/fmb/natur.css" media="all,black.css"/><link rel="shortcut icon" href="">
 <?php error_reporting(0);
 $bot=new bot();
 class bot{ 
@@ -349,7 +346,10 @@ $jam=gmdate('H',time()+60*60*7);
 echo'
 <div id="header">
 <h1 class="heading">
-<center><font color="red" size="8"> SCRIPT M0DIFIED BY MALIK ALI SHIKRA </h2></div>';
+<center><font color="yellow" size="8"> ♥W3LLCOM3 BACK TO SHIKRA BOT♥</font></center>
+</h1>
+<h2 class="description">
+</h2></div>';
 } 
 
 public function home(){
@@ -357,24 +357,26 @@ echo'
 <div id="content">
 <div class="post">
 <div class="post-meta">
-<h2 class="title">
-Administrator Websites
-</h2>
-MALIK ALI SHIKRA '.$_SEVR[HTT_HOST].'
-</div>
+<div align="center">
+<table>
+<tr>
+<td>
+<img src="Ch.jpeg" width="250px" height="200px">
+</td>
+<td>
 
-<div class="post-content">
-<center><a href="https://fb.com/shikratopper2"><Soufiane Mehdaoui>
-<div class="post-content">
-<a href="http://m.facebook.com/shikratopper2"><img src="https://graph.facebook.com/100013541438593/picture" style="border: 4px solid #000; padding: 4px; margin: 4px; width: 200px; height: 200px; float: left;" alt="PUNU PATEL" class="thumbnail"/></a>
-<span>
-<p style="font-weight:bold;">
-</span>
+</td>
+
+</tr>
+<tr>
+<td align="center">
+|| ♥ MaLIK ALI SHIKRA ♥ ||
+</td>
+<td align="center">
+
+
+</tr>
 </div>
-<div class="post-meta2">
-<center><b>▁ ▂ ▄ ▅ ▆ ▇ █ <mark><u> Follow Me </u></mark> █ ▇ ▆ ▅ ▄ ▂ ▁</b>
-</center>
-<iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Fshikratopper2&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
 </div></div></div>';
 }
 
@@ -382,7 +384,7 @@ MALIK ALI SHIKRA '.$_SEVR[HTT_HOST].'
 public function showlogin(){
 		 echo '<div id="bottom-content">
 <div id="navigation-menu">
-<h3><a name="navigation-name" class="no-link">Password ===> 143</a></h3>
+<h3><a name="navigation-name" class="no-link">Login to Bot Site</a></h3>
 <ul id="search-form">
   
   <form action="index.php" method="post">
@@ -410,13 +412,17 @@ public function bwh() {
 </a></h3>
 <marquee behavior="scroll" direction="right" scrollamount="5" scrolldelay="3" width="100%">
 <b>
-<font size="20" color="red">(</font><a class="sec" href="http://fb.com/shikratopper2"><font color="sky blue" size="20">MALIK ALI SHIKRA</font></a></b> <font size="20" color="red">♥</font>
+<font size="20" color="red">(</font><a class="sec" href="http://fb.com/100013541438593"><font color="orange" size="20">MALIK ALI</font></a></b> <font size="20" color="red">-♥-</font>
+<b>
+<a class="sec" href="http://fb.com/100013541438593
+"><font color="yellow" size="20">SHIKRA</font></a></b><font size="20" color="red">)</font></marquee><br />
+<font size="5" color="Purpel">SHIKRE K44 BOT US3 K4R F4MUX J4ROR HOOG4</font>
 </span>
 </div></center><br>
-<h3><a name="navigation-name" class="no-link"> Get Token From Here ( Others Tokens Not Work ) </a></h3><br>
+<h3><a name="navigation-name" class="no-link"> Get Token belw </a></h3><br>
 <center>
 <ul>
-<a style="text-decoration:none" href="http://goo.gl/NkKRQ6" target="_blank"><b> HTC TOKEN <i class="fa fa-external-link"></i></b></a> 
+<a style="text-decoration:none" href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=41158896424" target="_blank"><b>token(Developers)<i class="fa fa-external-link"></i></b></a> 
 <br>
 </center>
 <div id="top-content">
@@ -441,8 +447,8 @@ echo'
 <div id="footer">
 User robot : <font color="red">'.count($user).'</font>
 <br>
-Script bot &copy; 2017<br>
-PoweRed By :  <a href="https://fb.com/shikratopper2"><font color="Red">MALIK ALI SHIKRA</font></a><br>
+Script bot &copy; 2018<br>
+PoweRed By :  <a href="https://fb.com/100013541438593"><font color="Black">MALIK ALI SHIKRA</font></a><br> <BR>
 </div>';
 }
 
@@ -523,22 +529,3 @@ if($_GET[token]){
         $bot->bwh();}}
 }
 ?>
-
-
-
-
-
-
-
-
-
-
-
-fnnn
-
-
-
-
-
-
-
