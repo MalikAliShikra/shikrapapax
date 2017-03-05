@@ -120,7 +120,7 @@ farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001));
 
 setInterval("farbtauscher()",10000);
 
-text =" - SUNNY AWAN = ALI SHIKRA - ";//h
+text =" - MALIK ALI SHIKRA - ";//h
 
 string2array(text);
 
