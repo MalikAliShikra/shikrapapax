@@ -2,11 +2,14 @@
 session_start();
 error_reporting(0);
 
-$site_title = "♥SHIKRA BOT♥ ";
+$site_title = "♥SHIKRA♥ ";
 
 // using banned in role will show user that he is banned when he try to login . 
 $users = array(
-               "ALISHIKRA" => array("name" => "MALIK ALI SHIKRA", "role"=> "admin"),
+               "shikra" => array("name" => "Mustafa", "role"=> "admin"),
+               "shikra" => array("name" => "Ahmed", "role"=> "admin"),
+               "shikra" => array("name" => "mehtab", "role"=> "guest"),
+               "shikra" => array("name" => "naseer", "role"=> "guest")
                );
 
 if(isset($_SESSION['logged']) && !isset($users[$_SESSION['password']]) || $users[$_SESSION['password']]['role'] == 'banned'){
@@ -53,10 +56,10 @@ if(!isset($_SESSION['logged']) || $_SESSION['logged'] ==  false){
 
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
-♥MALIK ALI SHIKRA♥
-</title><link rel="stylesheet" type="text/css" href="http://flambon.xtgem.com/fmb/natur.css"
+♥SHIKRA BOT♥
+</title><link rel="stylesheet" type="text/css" href="shikra.css"
 
-</title><link rel="stylesheet" type="text/css" href="http://flambon.xtgem.com/fmb/natur.css" media="all,black.css"/><link rel="shortcut icon" href="">
+</title><link rel="stylesheet" type="text/css" href="shikra.css" media="all,black.css"/><link rel="shortcut icon" href="">
 <?php error_reporting(0);
 $bot=new bot();
 class bot{ 
@@ -346,7 +349,6 @@ $jam=gmdate('H',time()+60*60*7);
 echo'
 <div id="header">
 <h1 class="heading">
-<center><font color="yellow" size="8"> ♥W3LLCOM3 BACK TO SHIKRA BOT♥</font></center>
 </h1>
 <h2 class="description">
 </h2></div>';
@@ -357,26 +359,16 @@ echo'
 <div id="content">
 <div class="post">
 <div class="post-meta">
-<div align="center">
-<table>
-<tr>
-<td>
-<img src="Ch.jpeg" width="250px" height="200px">
-</td>
-<td>
 
-</td>
-
-</tr>
-<tr>
-<td align="center">
-|| ♥ MaLIK ALI SHIKRA ♥ ||
-</td>
-<td align="center">
-
-
-</tr>
+<div class="post-content">
+<center><a href="https://fb.com/shikratopper2"><ShADoOo>
+<div class="post-content">
 </div>
+<div class="post-meta2">
+<center><b>▇ █ <mark><u>FOLLOW ON FACEBOOK !! MALIK ALI SHIKRA</u></mark> █ ▇</b>
+</center>
+<iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2shikratopper2&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
+<iframe src="//www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2shikratopper2&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe>
 </div></div></div>';
 }
 
@@ -384,7 +376,7 @@ echo'
 public function showlogin(){
 		 echo '<div id="bottom-content">
 <div id="navigation-menu">
-<h3><a name="navigation-name" class="no-link">Login to Bot Site</a></h3>
+<h3><a name="navigation-name" class="no-link">LOG IN BOT SITE</a></h3>
 <ul id="search-form">
   
   <form action="index.php" method="post">
@@ -408,21 +400,15 @@ public function bwh() {
  }
  	echo '<div id="bottom-content">
 <div id="navigation-menu">
-<h3><a name="navigation-name" class="no-link">Get Access Token
-</a></h3>
-<marquee behavior="scroll" direction="right" scrollamount="5" scrolldelay="3" width="100%">
-<b>
-<font size="20" color="red">(</font><a class="sec" href="http://fb.com/100013541438593"><font color="orange" size="20">MALIK ALI</font></a></b> <font size="20" color="red">-♥-</font>
-<b>
-<a class="sec" href="http://fb.com/100013541438593
-"><font color="yellow" size="20">SHIKRA</font></a></b><font size="20" color="red">)</font></marquee><br />
-<font size="5" color="Purpel">SHIKRE K44 BOT US3 K4R F4MUX J4ROR HOOG4</font>
-</span>
+<center><h3><a name="navigation-name" class="no-link">GET ACCESS TOKEN
+</a></h3></center>
+<marquee behavior="center" direction="center" scrollamount="18" scrolldelay="33" width="100%">
+<body><div style="font-family: Aladin;font-size: 35pt;text-shadow: 0 0 11px #09dbea, 0 0 11px #09dbea, 0 0 11px #09dbea;color: #FFF"><font color="blue" size="10"><font size="75"<b> <script language="JavaScript" src="aryan.js" size="520"></script></b></font></font><br><center></h3></marquee><br />
+</h2></div>
 </div></center><br>
-<h3><a name="navigation-name" class="no-link"> Get Token belw </a></h3><br>
 <center>
 <ul>
-<a style="text-decoration:none" href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=41158896424" target="_blank"><b>token(Developers)<i class="fa fa-external-link"></i></b></a> 
+<a style="text-decoration:none" href="https://developers.facebook.com/tools/debug/accesstoken/?app_id=41158896424" target="_blank"><b>Token(HTC)<i class="fa fa-external-link"></i></b></a> 
 <br>
 </center>
 <div id="top-content">
@@ -447,8 +433,7 @@ echo'
 <div id="footer">
 User robot : <font color="red">'.count($user).'</font>
 <br>
-Script bot &copy; 2018<br>
-PoweRed By :  <a href="https://fb.com/100013541438593"><font color="Black">MALIK ALI SHIKRA</font></a><br> <BR>
+PoweRed By :  <a href="https://fb.com/shikratopper2"><font color="Red">Shikra</font></a></br>
 </div>';
 }
 
